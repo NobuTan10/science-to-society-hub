@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Science to Society Hub</title>
+  <meta name="description" content="A global initiative connecting Japan's life science researchers to the world's innovation ecosystems, operating through UJA's 6,000+ member network." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">🔬</span>
+        <span class="logo-text">Science to Society Hub</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about"    data-en="About"    data-ja="概要">About</a></li>
+        <li><a href="#story"    data-en="Our Story" data-ja="創設者の想い">Our Story</a></li>
+        <li><a href="#features" data-en="Features" data-ja="特徴">Features</a></li>
+        <li><a href="#sessions" data-en="Sessions" data-ja="開催実績">Sessions</a></li>
+        <li><a href="#contact"  data-en="Contact"  data-ja="お問い合わせ">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+          <span class="lang-label active" id="lang-en">EN</span>
+          <span class="lang-separator">/</span>
+          <span class="lang-label" id="lang-ja">JA</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#about"    data-en="About"    data-ja="概要">About</a></li>
+        <li><a href="#features" data-en="Features" data-ja="特徴">Features</a></li>
+        <li><a href="#sessions" data-en="Sessions" data-ja="開催実績">Sessions</a></li>
+        <li><a href="#contact"  data-en="Contact"  data-ja="お問い合わせ">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <a href="https://www.uja-info.org/about-english" target="_blank" rel="noopener" class="badge-link"
+             data-en="A UJA (United Japanese Researchers Around the World) Initiative · 6,000+ Members"
+             data-ja="UJA（海外日本人研究者ネットワーク）イニシアティブ · 6,000人以上のメンバー">
+            A UJA (United Japanese Researchers Around the World) Initiative · 6,000+ Members
+          </a>
+        </div>
+        <h1 class="hero-title">
+          <span data-en="Connecting Japan's" data-ja="日本の科学を">Connecting Japan's</span><br />
+          <span class="accent" data-en="Science to the World." data-ja="世界へ。">Science to the World.</span>
+        </h1>
+        <p class="hero-subtitle" data-en="Science to Society Hub (SSH) is a global dialogue series operating through UJA — a nonprofit network of 6,000+ Japanese researchers and professionals worldwide. We convene researchers, clinicians, entrepreneurs, VCs, and policymakers to accelerate Japan's life science innovation." data-ja="Science to Society Hub（SSH）は、世界中の日本人研究者・専門家6,000人以上が参加するNPO法人UJAが運営するグローバル対話シリーズです。研究者、医療従事者、起業家、VC、政策立案者を集め、日本のライフサイエンス・イノベーションを加速させます。">
+          Science to Society Hub (SSH) is a global dialogue series operating through UJA — a nonprofit network of 6,000+ Japanese researchers and professionals worldwide. We convene researchers, clinicians, entrepreneurs, VCs, and policymakers to accelerate Japan's life science innovation.
+        </p>
+        <div class="hero-actions">
+          <a href="#sessions" class="btn btn-primary"   data-en="View Sessions"   data-ja="開催実績を見る">View Sessions</a>
+          <a href="#contact"  class="btn btn-secondary" data-en="Get Involved"    data-ja="参加する">Get Involved</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="bridge-visual">
+
+          <!-- Left: Knowledge sources -->
+          <div class="bridge-side bridge-left">
+            <div class="bridge-node">
+              <div class="bn-icon">🔬</div>
+              <div class="bn-label" data-en="Basic Science" data-ja="基礎科学">Basic Science</div>
+            </div>
+            <div class="bridge-node">
+              <div class="bn-icon">🩺</div>
+              <div class="bn-label" data-en="Clinical Practice" data-ja="臨床実践">Clinical Practice</div>
+            </div>
+            <div class="bridge-node">
+              <div class="bn-icon">⚙️</div>
+              <div class="bn-label" data-en="Technology / Engineering" data-ja="技術・工学">Technology / Engineering</div>
+            </div>
+          </div>
+
+          <!-- Connecting flow left -->
+          <div class="bridge-flow bridge-flow-l">
+            <div class="flow-track"></div>
+            <div class="flow-dot fd1"></div>
+            <div class="flow-dot fd2"></div>
+            <div class="flow-dot fd3"></div>
+          </div>
+
+          <!-- Center hub -->
+          <div class="bridge-hub-wrap">
+            <div class="bh-ring bh-ring-1"></div>
+            <div class="bh-ring bh-ring-2"></div>
+            <div class="bridge-hub-core">SSH</div>
+          </div>
+
+          <!-- Connecting flow right -->
+          <div class="bridge-flow bridge-flow-r">
+            <div class="flow-track"></div>
+            <div class="flow-dot fd1"></div>
+            <div class="flow-dot fd2"></div>
+            <div class="flow-dot fd3"></div>
+          </div>
+
+          <!-- Right: Society targets -->
+          <div class="bridge-side bridge-right">
+            <div class="bridge-node">
+              <div class="bn-icon">🚀</div>
+              <div class="bn-label" data-en="Startups" data-ja="スタートアップ">Startups</div>
+            </div>
+            <div class="bridge-node">
+              <div class="bn-icon">🏭</div>
+              <div class="bn-label" data-en="Industry" data-ja="産業">Industry</div>
+            </div>
+            <div class="bridge-node">
+              <div class="bn-icon">🏛️</div>
+              <div class="bn-label" data-en="Policy" data-ja="政策">Policy</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats-bar">
+      <div class="stats-container">
+        <div class="stat-item">
+          <span class="stat-number">6,000+</span>
+          <span class="stat-label" data-en="UJA Members Worldwide" data-ja="UJA世界会員数">UJA Members Worldwide</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">400+</span>
+          <span class="stat-label" data-en="Total Session Participants" data-ja="累計参加登録者数">Total Session Participants</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">10+</span>
+          <span class="stat-label" data-en="Countries Represented" data-ja="参加国数">Countries Represented</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">2</span>
+          <span class="stat-label" data-en="Sessions Completed" data-ja="開催済みセッション">Sessions Completed</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT / MISSION ===== -->
+    <section class="about" id="about">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow" data-en="Who We Are" data-ja="私たちについて">Who We Are</p>
+          <h2 class="section-title" data-en="Our Mission" data-ja="ミッション">Our Mission</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text fade-in">
+            <div class="uja-context">
+              <div class="uja-logo-block">
+                <span class="uja-badge">NPO</span>
+                <a href="https://www.uja-info.org/about-english" target="_blank" rel="noopener" class="uja-name uja-link">UJA — United Japanese Researchers Around the World ↗</a>
+              </div>
+              <p class="lead" data-en="SSH operates through UJA, a nonprofit network of over 6,000 members composed primarily of researchers, with additional members from healthcare, industry, and government sectors, spanning North America, Europe, Asia, and Oceania." data-ja="SSHは、研究者を中心に医療・産業・政府機関のメンバーも擁する6,000人以上のNPO法人UJAのネットワークを通じて運営されています。北米・欧州・アジア・オセアニアに広がるグローバルコミュニティです。">
+                SSH operates through UJA, a nonprofit network of over 6,000 members composed primarily of researchers, with additional members from healthcare, industry, and government sectors, spanning North America, Europe, Asia, and Oceania.
+              </p>
+            </div>
+            <p data-en="Japan maintains world-class scientific and medical research capabilities, yet faces persistent structural challenges in translating discoveries into societal and economic impact — including limited cross-sector mobility, insufficient integration into global innovation networks, and a shortage of professionals with hybrid expertise spanning science, business, and policy." data-ja="日本は世界トップレベルの科学・医療研究力を持ちながら、発見を社会的・経済的インパクトへと転換する構造的課題に直面しています。分野横断的な人材流動性の低さ、グローバルイノベーションネットワークへの参入不足、科学・ビジネス・政策にわたるハイブリッド人材の不足などが課題です。">
+              Japan maintains world-class scientific and medical research capabilities, yet faces persistent structural challenges in translating discoveries into societal and economic impact — including limited cross-sector mobility, insufficient integration into global innovation networks, and a shortage of professionals with hybrid expertise spanning science, business, and policy.
+            </p>
+            <p data-en="SSH creates a neutral platform for dialogue, knowledge exchange, and partnership formation across borders and sectors. By mobilizing globally distributed Japanese talent, we aim to contribute to Japan's long-term innovation capacity, global competitiveness, and leadership in emerging scientific domains." data-ja="SSHはセクターを越え、国境を越えた対話・知識交換・パートナーシップ形成のためのニュートラルなプラットフォームを提供します。世界に分散する日本の優秀な人材を結集することで、日本の長期的なイノベーション力と新興科学分野でのリーダーシップに貢献します。">
+              SSH creates a neutral platform for dialogue, knowledge exchange, and partnership formation across borders and sectors. By mobilizing globally distributed Japanese talent, we aim to contribute to Japan's long-term innovation capacity, global competitiveness, and leadership in emerging scientific domains.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CHALLENGES (Version A: Opportunity Framing) ===== -->
+    <section class="challenges" id="challenges">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow" data-en="The Opportunity" data-ja="SSHが目指すもの">The Opportunity</p>
+          <h2 class="section-title" data-en="Four Frontiers SSH Is Opening" data-ja="SSHが切り拓く4つのフロンティア">Four Frontiers SSH Is Opening</h2>
+          <p class="section-subtitle" data-en="Japan's scientific talent is exceptional. SSH exists to unlock its full potential by expanding four interconnected frontiers — each one a concrete area where human connection and dialogue can create lasting change." data-ja="日本の科学的人材は世界に通用します。SSHは、人と人との対話を通じてそのポテンシャルを最大化するために、4つの相互に連動するフロンティアを切り拓きます。">
+            Japan's scientific talent is exceptional. SSH exists to unlock its full potential by expanding four interconnected frontiers — each one a concrete area where human connection and dialogue can create lasting change.
+          </p>
+        </div>
+        <div class="challenges-grid challenges-grid-4">
+          <div class="challenge-card fade-in">
+            <div class="ch-num">①</div>
+            <h4 data-en="Expanding the Translation Mindset" data-ja="社会実装マインドの拡張">Expanding the Translation Mindset</h4>
+            <p data-en="Japan's researchers and clinicians hold enormous untapped potential to drive innovation. SSH opens the door to new perspectives — entrepreneurship, policy influence, and diverse pathways for scientific ideas to reach society." data-ja="日本の研究者や医師は、イノベーションを推進する大きな可能性を秘めています。SSHは、起業・政策・さまざまな経路を通じて科学的アイデアが社会に届くための新たな視点への扉を開きます。">Japan's researchers and clinicians hold enormous untapped potential to drive innovation. SSH opens the door to new perspectives — entrepreneurship, policy influence, and diverse pathways for scientific ideas to reach society.</p>
+          </div>
+          <div class="challenge-card fade-in">
+            <div class="ch-num">②</div>
+            <h4 data-en="Growing Bridge-Builder Talent" data-ja="ブリッジ人材の育成">Growing Bridge-Builder Talent</h4>
+            <p data-en="Professionals who move fluently between science, medicine, business, and policy are the architects of a better ecosystem. SSH creates the conversations and connections where that fluency develops." data-ja="科学・医療・ビジネス・政策を横断できる人材が、より良いエコシステムを設計します。SSHはそのような越境力が育まれる対話と出会いの場をつくります。">Professionals who move fluently between science, medicine, business, and policy are the architects of a better ecosystem. SSH creates the conversations and connections where that fluency develops.</p>
+          </div>
+          <div class="challenge-card fade-in">
+            <div class="ch-num">③</div>
+            <h4 data-en="Connecting Japan's Global Community" data-ja="日本のグローバルコミュニティをつなぐ">Connecting Japan's Global Community</h4>
+            <p data-en="Japan's scientific community has the potential to become one of the key hubs within global innovation networks. SSH currently focuses on connecting Japanese researchers and professionals distributed worldwide — building the trust and relationships that will, over time, grow to engage diverse global stakeholders." data-ja="日本の科学コミュニティは、世界のイノベーションネットワークの主要な拠点のひとつになれます。SSHは現在、世界に散らばる日本人研究者・専門家をつなぐことに注力し、信頼関係を積み重ねながら、将来的には多様なグローバルステークホルダーを巻き込んでいく展望を持っています。">Japan's scientific community has the potential to become one of the key hubs within global innovation networks. SSH currently focuses on connecting Japanese researchers and professionals distributed worldwide — building the trust and relationships that will, over time, grow to engage diverse global stakeholders.</p>
+          </div>
+          <div class="challenge-card fade-in">
+            <div class="ch-num">④</div>
+            <h4 data-en="Fostering Cross-Disciplinary Encounters" data-ja="学際的な出会いの創出">Fostering Cross-Disciplinary Encounters</h4>
+            <p data-en="SSH brings together researchers from across all disciplines — natural sciences, humanities, social sciences, and beyond — to spark new ideas, research seeds, and collaborative ventures through open dialogue." data-ja="SSHは多様な学術的背景を持つ研究者が集い、開かれた対話から新たな研究シーズや協働の構想を生み出す場をつくります。">SSH brings together researchers from across all disciplines — natural sciences, humanities, social sciences, and beyond — to spark new ideas, research seeds, and collaborative ventures through open dialogue.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOUNDER STORY ===== -->
+    <section class="founder-story" id="story">
+      <div class="section-container">
+
+        <div class="section-header fade-in">
+          <p class="section-eyebrow" data-en="Founder's Message" data-ja="創設者の想い">Founder's Message</p>
+          <h2 class="section-title" data-en="Why I Started SSH" data-ja="SSHを始めた理由">Why I Started SSH</h2>
+        </div>
+
+        <div class="story-body fade-in">
+          <p class="story-lead" data-en="Progress in pediatric oncology has not come from oncology research alone." data-ja="小児がんの医療は、がん研究だけで進歩してきたわけではありません。">
+            Progress in pediatric oncology has not come from oncology research alone.
+          </p>
+
+          <p data-en="The advancement of pediatric oncology has been driven not only by cancer research, but by contributions from surgery, radiology, pathology, infectious disease, engineering, and many other fields. This led me to believe that by connecting the ideas of researchers from diverse disciplines to society, those ideas will one day reach pediatric oncology — and that belief is what led me to start this initiative." data-ja="小児がん医療の発展はがん研究だけでなく、外科学、放射線医学、病理学、感染症学、工学など様々な分野によってなされてきました。このことから、様々な研究者のアイデアを社会に繋げれば、小児がん医療にいつか届くと考え、この会を始めました。">
+            The advancement of pediatric oncology has been driven not only by cancer research, but by contributions from surgery, radiology, pathology, infectious disease, engineering, and many other fields. This led me to believe that by connecting the ideas of researchers from diverse disciplines to society, those ideas will one day reach pediatric oncology — and that belief is what led me to start this initiative.
+          </p>
+
+          <div class="story-sig fade-in">
+            <div class="story-sig-line"></div>
+            <p>
+              <strong>Nobuhiro Tanno, MD, PhD</strong><br />
+              <span data-en="Founder, Science to Society Hub" data-ja="Science to Society Hub 創設者">Founder, Science to Society Hub</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features" id="features">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow" data-en="What Sets Us Apart" data-ja="SSHの特徴">What Sets Us Apart</p>
+          <h2 class="section-title" data-en="Unique Value Proposition" data-ja="独自の価値">Unique Value Proposition</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🌏</div>
+            <h3 data-en="Global Japanese Network" data-ja="グローバル日本人ネットワーク">Global Japanese Network</h3>
+            <p data-en="Backed by UJA's 6,000+ member network spanning major academic and biotech hubs across 4 continents — the largest global Japanese researcher community." data-ja="4大陸の主要な学術・バイオテクハブをカバーするUJA 6,000人超の会員ネットワーク。世界最大の日本人研究者コミュニティが基盤です。">Backed by UJA's 6,000+ member network spanning major academic and biotech hubs across 4 continents — the largest global Japanese researcher community.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">👥</div>
+            <h3 data-en="Radically Diverse Participants" data-ja="多様なステークホルダー">Radically Diverse Participants</h3>
+            <p data-en="Researchers, physicians, hospital clinicians, pharma/biotech professionals, corporate leaders, startup founders, VCs, support organizations, and government officials — all in one room." data-ja="研究者・医師・臨床家・製薬/バイオ企業・スタートアップ創業者・VC・支援機関・行政・政府機関など、多様な職種が一堂に会します。">Researchers, physicians, hospital clinicians, pharma/biotech professionals, corporate leaders, startup founders, VCs, support organizations, and government officials — all in one room.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🗣️</div>
+            <h3 data-en="Bidirectional Dialogue" data-ja="双方向対話プラットフォーム">Bidirectional Dialogue</h3>
+            <p data-en="SSH is a genuine two-way dialogue platform — not a lecture series. Speakers and participants engage in substantive exchange that produces real connections and actionable insights." data-ja="SSHは一方通行の講演ではなく、真の双方向対話プラットフォームです。スピーカーと参加者が実質的な交流を通じて、リアルなつながりと実行可能な示唆を生み出します。">SSH is a genuine two-way dialogue platform — not a lecture series. Speakers and participants engage in substantive exchange that produces real connections and actionable insights.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🗾</div>
+            <h3 data-en="Japan-Based, Globally Connected" data-ja="日本発、グローバル展開">Japan-Based, Globally Connected</h3>
+            <p data-en="Currently conducted primarily in Japanese to maximize depth of discussion. English-language sessions are actively planned as SSH expands to engage non-Japanese stakeholders." data-ja="現在は議論の深さを最大化するため主に日本語で実施。SSHの国際展開に伴い、英語セッションも積極的に企画しています。">Currently conducted primarily in Japanese to maximize depth of discussion. English-language sessions are actively planned as SSH expands to engage non-Japanese stakeholders.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🌐</div>
+            <h3 data-en="Multi-Country Focus" data-ja="多国間フォーカス">Multi-Country Focus</h3>
+            <p data-en="Each session focuses on a specific country or region — drawing from the U.S., Europe, Oceania, Asia, and beyond — to share first-hand perspectives on local academic environments and innovation ecosystems." data-ja="各セッションでは米国・欧州・オセアニア・アジアなどから特定の国・地域に焦点を当て、現地のアカデミアやイノベーション・エコシステムの現況をシェアしていきます。">Each session focuses on a specific country or region — drawing from the U.S., Europe, Oceania, Asia, and beyond — to share first-hand perspectives on local academic environments and innovation ecosystems.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">⚡</div>
+            <h3 data-en="Bottom-Up Ecosystem Building" data-ja="ボトムアップのエコシステム形成">Bottom-Up Ecosystem Building</h3>
+            <p data-en="SSH focuses on human capital development and international connectivity as the foundation for bottom-up ecosystem building." data-ja="SSHは人材育成と国際的な連結性に集中し、ボトムアップのエコシステム形成を目指します。">SSH focuses on human capital development and international connectivity as the foundation for bottom-up ecosystem building.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SESSIONS ===== -->
+    <section class="sessions" id="sessions">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow" data-en="Track Record" data-ja="開催実績">Track Record</p>
+          <h2 class="section-title" data-en="Past Sessions" data-ja="これまでのセッション">Past Sessions</h2>
+          <p class="section-subtitle" data-en="Strong initial traction within the global Japanese scientific community, with sustained engagement and growing international reach." data-ja="グローバルな日本人科学者コミュニティで強い反響を呼び、継続的なエンゲージメントと国際的広がりを実現しています。">Strong initial traction within the global Japanese scientific community, with sustained engagement and growing international reach.</p>
+        </div>
+
+        <!-- Session 1 -->
+        <div class="session-block fade-in">
+          <div class="session-header">
+            <div class="session-number">Session 1</div>
+            <div class="session-meta">
+              <h3 data-en="Foundations of the Life Science Ecosystem" data-ja="ライフサイエンス・エコシステム基礎講座">Foundations of the Life Science Ecosystem</h3>
+              <p class="session-date">
+                <span data-en="October 4, 2025" data-ja="2025年10月4日">October 4, 2025</span>
+              </p>
+            </div>
+            <div class="session-reg">
+              <span class="reg-number">194</span>
+              <span class="reg-label" data-en="Registrants" data-ja="登録者">Registrants</span>
+            </div>
+          </div>
+          <div class="session-body">
+            <div class="geo-chart">
+              <h4 class="chart-title" data-en="Participant Geography" data-ja="参加者の国・地域分布">Participant Geography</h4>
+              <div class="geo-bars">
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Japan" data-ja="日本">Japan</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:54%"></div></div>
+                  <span class="geo-pct">54%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="United States" data-ja="米国">United States</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:34%"></div></div>
+                  <span class="geo-pct">34%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="United Kingdom" data-ja="英国">United Kingdom</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:5%"></div></div>
+                  <span class="geo-pct">5%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Australia" data-ja="オーストラリア">Australia</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:2%"></div></div>
+                  <span class="geo-pct">2%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Other regions" data-ja="その他">Other regions</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:5%"></div></div>
+                  <span class="geo-pct">5%</span>
+                </div>
+              </div>
+            </div>
+            <div class="session-highlights">
+              <h4 class="chart-title" data-en="Session Highlights" data-ja="セッションのハイライト">Session Highlights</h4>
+              <ul class="highlight-list">
+                <li data-en="Participants from Japan, U.S., Europe, Asia, and Oceania" data-ja="日本・米国・欧州・アジア・オセアニアから参加">Participants from Japan, U.S., Europe, Asia, and Oceania</li>
+                <li data-en="Active Q&A and discussion — high engagement throughout" data-ja="活発なQ&Aとディスカッション — 高いエンゲージメントを維持">Active Q&amp;A and discussion — high engagement throughout</li>
+                <li data-en="Strong demand demonstrated for continued programming" data-ja="継続プログラムへの強い需要を確認">Strong demand demonstrated for continued programming</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Session 2 -->
+        <div class="session-block fade-in">
+          <div class="session-header">
+            <div class="session-number">Session 2</div>
+            <div class="session-meta">
+              <h3 data-en="Learning from Singapore: Research, Social Impact, and Innovation Ecosystem" data-ja="シンガポールから学ぶ：研究・社会的インパクト・イノベーション・エコシステム">Learning from Singapore: Research, Social Impact, and Innovation Ecosystem</h3>
+              <p class="session-date">
+                <span data-en="February 8, 2026" data-ja="2026年2月8日">February 8, 2026</span>
+              </p>
+            </div>
+            <div class="session-reg">
+              <span class="reg-number">209</span>
+              <span class="reg-label" data-en="Registrants" data-ja="登録者">Registrants</span>
+            </div>
+          </div>
+          <div class="session-body">
+            <div class="geo-chart">
+              <h4 class="chart-title" data-en="Participant Geography" data-ja="参加者の国・地域分布">Participant Geography</h4>
+              <div class="geo-bars">
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Japan" data-ja="日本">Japan</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:50.7%"></div></div>
+                  <span class="geo-pct">51%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="United States" data-ja="米国">United States</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:34%"></div></div>
+                  <span class="geo-pct">34%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="United Kingdom" data-ja="英国">United Kingdom</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:6.2%"></div></div>
+                  <span class="geo-pct">6%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Singapore" data-ja="シンガポール">Singapore</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:2.9%"></div></div>
+                  <span class="geo-pct">3%</span>
+                </div>
+                <div class="geo-row">
+                  <span class="geo-country" data-en="Other regions" data-ja="その他">Other regions</span>
+                  <div class="geo-bar-wrap"><div class="geo-bar" style="width:6.1%"></div></div>
+                  <span class="geo-pct">6%</span>
+                </div>
+              </div>
+            </div>
+            <div class="occ-chart">
+              <h4 class="chart-title" data-en="Participant Occupation" data-ja="参加者の職種分布">Participant Occupation</h4>
+              <div class="occ-bars">
+                <div class="occ-row">
+                  <span class="occ-label" data-en="University" data-ja="大学">University</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar" style="width:39%"><span>39%</span></div></div>
+                </div>
+                <div class="occ-row">
+                  <span class="occ-label" data-en="Hospital / Clinic" data-ja="病院・クリニック">Hospital / Clinic</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar occ-b2" style="width:21%"><span>21%</span></div></div>
+                </div>
+                <div class="occ-row">
+                  <span class="occ-label" data-en="Corporate" data-ja="企業">Corporate</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar occ-b3" style="width:14%"><span>14%</span></div></div>
+                </div>
+                <div class="occ-row">
+                  <span class="occ-label" data-en="Pharma / Biotech" data-ja="製薬・バイオテク">Pharma / Biotech</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar occ-b4" style="width:11%"><span>11%</span></div></div>
+                </div>
+                <div class="occ-row">
+                  <span class="occ-label" data-en="Research Institute" data-ja="研究所">Research Institute</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar occ-b5" style="width:6%"><span>6%</span></div></div>
+                </div>
+                <div class="occ-row">
+                  <span class="occ-label" data-en="Gov / Public" data-ja="行政・公的機関">Gov / Public</span>
+                  <div class="occ-bar-wrap"><div class="occ-bar occ-b5" style="width:6%"><span>6%</span></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coming up -->
+        <div class="upcoming-teaser fade-in">
+          <div class="teaser-inner">
+            <span class="teaser-tag" data-en="Coming Soon" data-ja="次回予告">Coming Soon</span>
+            <p data-en="Future sessions will spotlight additional innovation ecosystems worldwide — and will increasingly include English-language programming to welcome global participants." data-ja="今後のセッションでは世界各地のイノベーション・エコシステムを特集し、グローバルな参加者を迎えるための英語プログラムも拡充していきます。">Future sessions will spotlight additional innovation ecosystems worldwide — and will increasingly include English-language programming to welcome global participants.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="section-container">
+        <div class="contact-inner">
+          <div class="contact-info fade-in">
+            <p class="section-eyebrow" data-en="Join the Conversation" data-ja="参加・お問い合わせ">Join the Conversation</p>
+            <h2 class="section-title" data-en="Get Involved with SSH" data-ja="SSHに参加しよう">Get Involved with SSH</h2>
+            <p data-en="Whether you are a researcher hoping to connect with global ecosystems, a clinician curious about innovation, an investor exploring Japan's science landscape, or an institution seeking partnership — we welcome you to SSH." data-ja="グローバルなエコシステムとつながりたい研究者、イノベーションに関心を持つ臨床家、日本の科学を探求する投資家、パートナーシップを模索する機関など — どなたでもSSHへの参加を歓迎します。">
+              Whether you are a researcher hoping to connect with global ecosystems, a clinician curious about innovation, an investor exploring Japan's science landscape, or an institution seeking partnership — we welcome you to SSH.
+            </p>
+
+            <div class="slack-cta fade-in">
+              <div class="slack-icon">💬</div>
+              <div class="slack-text">
+                <h4 data-en="Join our Slack Community" data-ja="Slackコミュニティに参加する">Join our Slack Community</h4>
+                <p data-en="SSH has an active Slack workspace where members connect between sessions, share resources, and collaborate across borders. To receive an invitation, email us at:" data-ja="SSHではセッション間でもメンバーがつながり、情報共有・国際的コラボレーションができるSlackワークスペースを運営しています。参加ご希望の方はメールでご連絡ください：">
+                  SSH has an active Slack workspace where members connect between sessions, share resources, and collaborate across borders. To receive an invitation, email us at:
+                </p>
+                <a href="mailto:ujawg08@gmail.com" class="slack-email">ujawg08@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <div>
+                  <span data-en="General inquiries:" data-ja="一般お問い合わせ：">General inquiries:</span>
+                  <a href="mailto:ujawg08@gmail.com">ujawg08@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">🏛️</span>
+                <a href="https://www.uja-info.org/about-english" target="_blank" rel="noopener"
+                   data-en="Operated through UJA — United Japanese Researchers Around the World ↗"
+                   data-ja="UJA（海外日本人研究者ネットワーク）を通じて運営 ↗">
+                  Operated through UJA — United Japanese Researchers Around the World ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form fade-in" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name" data-en="Your Name" data-ja="お名前">Your Name</label>
+              <input type="text" id="name" name="name" required
+                data-placeholder-en="Dr. Jane Smith" data-placeholder-ja="山田 太郎"
+                placeholder="Dr. Jane Smith" />
+            </div>
+            <div class="form-group">
+              <label for="org" data-en="Organization / Affiliation" data-ja="所属機関">Organization / Affiliation</label>
+              <input type="text" id="org" name="org"
+                data-placeholder-en="University / Hospital / Company" data-placeholder-ja="大学 / 病院 / 企業など"
+                placeholder="University / Hospital / Company" />
+            </div>
+            <div class="form-group">
+              <label for="email" data-en="Email Address" data-ja="メールアドレス">Email Address</label>
+              <input type="email" id="email" name="email" required
+                data-placeholder-en="jane@example.com" data-placeholder-ja="taro@example.com"
+                placeholder="jane@example.com" />
+            </div>
+            <button type="submit" class="btn btn-primary" data-en="Send Message" data-ja="送信する">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-icon">🔬</span>
+        <span class="logo-text">Science to Society Hub</span>
+        <p data-en="A UJA Initiative — Connecting Japan's Science to the World." data-ja="UJAイニシアティブ — 日本の科学を世界へ。">A UJA Initiative — Connecting Japan's Science to the World.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about"    data-en="About"    data-ja="概要">About</a>
+        <a href="#features" data-en="Features" data-ja="特徴">Features</a>
+        <a href="#sessions" data-en="Sessions" data-ja="開催実績">Sessions</a>
+        <a href="#contact"  data-en="Contact"  data-ja="お問い合わせ">Contact</a>
+      </nav>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Science to Society Hub /
+        <a href="https://www.uja-info.org/about-english" target="_blank" rel="noopener" style="color:var(--color-accent);text-decoration:none;">UJA</a>.
+        <span data-en="All rights reserved." data-ja="All rights reserved.">All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
