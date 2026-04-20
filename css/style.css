@@ -617,6 +617,7 @@ body.lang-ja { font-family: 'Noto Sans JP', 'Inter', sans-serif; }
    ============================================================ */
 .contact { background: var(--color-surface); }
 .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+.contact-inner-single { grid-template-columns: 1fr; max-width: 720px; margin: 0 auto; }
 .contact-info .section-title { text-align: left; margin-top: 10px; margin-bottom: 16px; }
 .contact-info p { color: var(--color-text-muted); line-height: 1.8; margin-bottom: 28px; }
 .contact-details { display: flex; flex-direction: column; gap: 14px; }
